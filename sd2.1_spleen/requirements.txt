@@ -1,0 +1,13 @@
+# NOTE: torch / torchvision are intentionally NOT pinned here.
+# Install them separately with the CUDA build that matches the cluster driver,
+# e.g. on CHIMERA24 (driver supports CUDA 12.8):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# Then run:  pip install -r requirements.txt
+diffusers>=0.27.0
+transformers>=4.38.0
+accelerate>=0.28.0
+peft>=0.10.0
+safetensors>=0.4.2
+Pillow>=10.2.0
+tqdm>=4.66.0
+numpy>=1.26.0
