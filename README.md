@@ -15,3 +15,4 @@ DDPM (ddpm_spleen/ddpm.ipynb):
  ## Acknowledgements
 - [Denoising Diffusion Probabilistic Models](https://github.com/hojonathanho/diffusion) — Ho et al., 2020
 - [CycleGAN and pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) — Zhu et al., 2017
+- [High-Resolution Image Synthesis with Latent Diffusion Models (Stable Diffusion 1.5)](https://arxiv.org/abs/2112.10752) — Rombach et al., 2022
