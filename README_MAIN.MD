@@ -7,7 +7,7 @@ Stable Diffusion 2.1 (sd2.1_spleen/):
 This folder contains the Stable Diffusion 2.1 pipeline for generating synthetic spleen ultrasound images. For detailed setup and usage instructions, see the README inside the sd2.1_spleen/ directory.
 
 CycleGAN:
-...
+Inside the SpleenCycleGan file is the pipeline for creating synthetic spleen images using GANs. There are directions on how the model works within the file.
 
-DDPM:
-...
+DDPM (ddpm_spleen/ddpm.ipynb):
+ Denoising Diffusion Probabilistic Model with a U-Net backbone and attention, trained from scratch on spleen ultrasound images using processed roboflow data from team5-data.  For detailed setup please see the README inside the ddpm_spleen directory.
